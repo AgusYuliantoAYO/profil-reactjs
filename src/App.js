@@ -6,7 +6,8 @@ import Tentang from './components/Tentang';
 import Porto from './components/Porto';
 import Skills from './components/Skills';
 import Sosmed from './components/Sosmed';
-import Tanya from './components/Tanya';
+// import Tanya from './components/Tanya';
+import Footer from './components/Footer';
 import "./style/profil.css"
 
 
@@ -32,9 +33,9 @@ function App() {
         <div className='tanya'> 
           <Sosmed/>
         </div>
-        {/* <div className='tanya'> 
-          <Tanya/>
-        </div> */}
+        <div className='footer'>
+        <Footer/>
+        </div>
       </div>
   );
 }

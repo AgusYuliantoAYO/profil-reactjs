@@ -76,18 +76,20 @@
 
 .skills {
         /* height: auto; */
-        height: 100vh;
+        height: auto;
         /* background: url("../assets/bg/bgitem.jpg"); */
+        /* background: gray; */
         background: gray;
        background-size: cover;
 }
 
 .imgSkill{
-    /* width: 200px; */
     height: auto;
-    background-color: black;
-    margin: 5px;
-    padding: 5px;
+    background-color: gray;
+    margin: 3px;
+    padding: 3px;
+    /* image-resolution: 250px; */
+    /* text-align: center; */
 }
 
 .images{
@@ -100,13 +102,15 @@
 }
 
 /* .skillWrapper{
-
+height: 100px;
 } */
 
 .sosmed{
     /* background-color: black; */
     /* height: 100vh; */
-    height: auto;
+    height: 100vh;
+    justify-content: end;
+    align-items: end;
 }
 
 .propil{
@@ -118,4 +122,18 @@
     text-align: center;
     justify-content: center;
     background-color: black;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.itemsTtg{
+    text-align: center;
+    background: black;
+    align-items: center;
+    justify-content: center;
 }

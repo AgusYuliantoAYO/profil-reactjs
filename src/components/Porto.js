@@ -1,5 +1,5 @@
 
-import {Card, Container, Row, Col, Image} from "react-bootstrap" 
+import {Card, Container, Row, Col, Image, Button} from "react-bootstrap" 
 import ags from "../assets/bg/Slide1.PNG"
 const Porto = () => {
 
@@ -22,7 +22,8 @@ const Porto = () => {
                         className="images"/>
                         <Card.Body  className="text-center">
                         <Card.Text>
-                            Some quick asasda sda sda da asd asd asd asd as
+                        <Button variant="outline-warning" href="https://sinergisubuh.com" >Cek Hasil</Button>
+                            {/* <button className="btn btn-success" href="https://sinergisubuh.com" >Cek Hasil</button> */}
                         </Card.Text>
                         </Card.Body>
                     </Card>

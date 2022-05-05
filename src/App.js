@@ -1,25 +1,42 @@
-import logo from './logo.svg';
+
 import './App.css';
+import NavBar from './components/NavBar';
+import Intro from './components/Intro';
+import Tentang from './components/Tentang';
+import Porto from './components/Porto';
+import Skills from './components/Skills';
+import Sosmed from './components/Sosmed';
+import Tanya from './components/Tanya';
+import "./style/profil.css"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        <div className="nav">
+        <NavBar/>
+        </div>
+        <div className="myBG" >
+            <Intro/>
+        </div>
+        
+        <div className="tentang">
+          <Tentang/>
+        </div>
+        <div className="skills">
+          <Skills/>
+        </div>
+        <div className="porto">
+          <Porto/>
+        </div>
+        <div className='tanya'> 
+          <Sosmed/>
+        </div>
+        {/* <div className='tanya'> 
+          <Tanya/>
+        </div> */}
+      </div>
   );
 }
-
+ 
 export default App;

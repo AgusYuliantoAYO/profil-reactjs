@@ -13,7 +13,7 @@ const Sosmed = () => {
                         src={github} 
                         width="auto"
                         height="auto"
-                        className="iconSosmed"/>  
+                        className="iconSosmed" href="https://github.com/AgusYuliantoAYO"/>  
                         github.com/AgusYuliantoAYO</h5>
                 </li>
                 
@@ -21,14 +21,14 @@ const Sosmed = () => {
                         src={ig} 
                         width="auto"
                         height="auto"
-                        className="iconSosmed"/> 
+                        className="iconSosmed" href="https://www.instagram.com/agusyulianto.ayo/" /> 
                         instagram.com/agusyulianto.ayo</h5> 
                 </li>
                 <li><h5 className="text-white"><Image 
                         src={linkedn} 
                         width="auto"
                         height="auto"
-                        className="iconSosmed"/> 
+                        className="iconSosmed" herf="https://www.linkedin.com/in/agusyulianto-ayo/"/> 
                         linkedin.com/in/agusyulianto-ayo</h5>
                 </li>
             

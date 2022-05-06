@@ -11,9 +11,9 @@ const Tentang =()=> {
                 <Col >
                 <h5 className="mt-4 text-white btn-primary"><b>Riwayat Pendidikan Akhir:</b></h5>
                 <ListGroup horizontal className="itemsTtg">
-                <ListGroup.Item className="col-4">S1 - Informatika</ListGroup.Item>
-                <ListGroup.Item className="col-4">Universitas Teknologi Yogyakarta</ListGroup.Item>
-                <ListGroup.Item className="col-4">WEB</ListGroup.Item>
+                <ListGroup.Item className="col-6">Sarjana 1 ; <b>INFORMATIKA</b> ; WEB</ListGroup.Item>
+                <ListGroup.Item className="col-6">Universitas Teknologi Yogyakarta (2022)</ListGroup.Item>
+                {/* <ListGroup.Item className="col-3">WEB</ListGroup.Item> */}
                 </ListGroup>
                 </Col>
             </Row>

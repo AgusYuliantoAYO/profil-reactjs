@@ -17,7 +17,7 @@ const Intro = () => {
                   <div className="title">AGUS YULIANTO S.Kom.</div>
                   <div className="subtitle mt-2">[ WEB Developer ]</div>
                   <div className="introButton mt-2 mb-5 text-center">
-                      <Button>Kenalan Yuk</Button>
+                      <Button className="btn btn-success" href="https://api.whatsapp.com/send/?phone=%2B6281226827411&text&app_absent=0">Hubungi via WA</Button>
         
                   </div>
                   </Col>

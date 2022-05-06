@@ -54,6 +54,9 @@
     /* height: 100vh; */
     background: #808080;
     background-size: cover;
+    justify-content: end;
+    align-items: end;
+    text-align: center;
 }
 
 
@@ -80,7 +83,10 @@
         /* background: url("../assets/bg/bgitem.jpg"); */
         /* background: gray; */
         background: gray;
-       background-size: cover;
+        background-size: cover;
+        justify-content: end;
+        align-items: end;
+        text-align: center
 }
 
 .imgSkill{

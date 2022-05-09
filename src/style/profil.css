@@ -49,6 +49,12 @@
     background: black;
     background-size: cover;
 }
+
+.tentang-isi{
+    font-size: 2rem;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .porto{
     height: auto;
     /* height: 100vh; */

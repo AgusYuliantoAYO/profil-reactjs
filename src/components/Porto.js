@@ -5,7 +5,7 @@ import react from "../assets/porto/react.png"
 const Porto = () => {
 
     return (
-        <div className="porto">
+        <div className="porto"  id="porto">
             <Container>
                 <br/>
                 <br/>
@@ -14,7 +14,7 @@ const Porto = () => {
                 <br/>
                 <h1 className="text-white">Portofolio</h1>
                 <Row>
-                    <Col md={6} className="skillWrapper" id="porto">
+                    <Col md={6} className="skillWrapper" >
                     <Card className="imgSkill bg-dark text-light shadow">
                         <Image 
                         src={codeigniter} 
@@ -23,7 +23,7 @@ const Porto = () => {
                         className="images"/>
                         <Card.Body  className="text-center">
                         <Card.Text>
-                            <h5>Web Donasi dan Marketplace - Codeigniter3</h5>
+                            <h6>Web Donasi & Marketplace - CI3</h6>
                             <Button variant="outline-warning" href="https://sinergisubuh.com" >Cek Hasil</Button>
                         </Card.Text>
                         </Card.Body>
@@ -39,7 +39,7 @@ const Porto = () => {
                         className="images"/>
                         <Card.Body  className="text-center">
                         <Card.Text>
-                            <h5>LandingPage - React.Js</h5>
+                            <h6>LandingPage - React.Js</h6>
                            <Button variant="outline-warning" href="https://agusyuliantoayo.github.io/portofolio-reactjs/" >Cek Hasil</Button>
                         </Card.Text>
                         </Card.Body>

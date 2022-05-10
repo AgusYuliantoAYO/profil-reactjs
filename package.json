@@ -1,8 +1,8 @@
 {
-  "name": "portofolio-reactjs",
+  "name": "profil-reactjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://agusyuliantoayo.github.io/portofolio-reactjs",
+  "homepage": "https://agusyuliantoayo.github.io/profil-reactjs",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
